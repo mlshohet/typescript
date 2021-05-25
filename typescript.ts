@@ -23,15 +23,17 @@ let sizeName: string = Size[2];
 interface RobotArmy {
 	count: number,
 	type: string,
-	magic: string
+	weapons: string
 }
 
 let fightRobotArmy = (robots: RobotArmy) : void => {
+	console.log(robots.count, robots.type, "using", robots.weapons);
 	console.log("FIGHT");
 }
 
 let robots: RobotArmy;
-robots = { count: 12, type: "Guerrilas", magic: "guns"};
+robots = { count: 12, type: "Guerrilas", weapons: "guns"};
+
 fightRobotArmy(robots);
 
 

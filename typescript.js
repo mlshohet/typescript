@@ -19,7 +19,16 @@ var Size;
 ;
 var sizeName = Size[2];
 var fightRobotArmy = function (robots) {
+    console.log(robots.count, robots.type, "using", robots.weapons);
     console.log("FIGHT");
 };
-var robots;
-fightRobotArmy(robots);
+var robots1;
+robots1 = { count: 12, type: "Guerrilas", weapons: "guns" };
+var robots2;
+robots2 = { count: 7, type: "Pilots", weapons: "Jets" };
+fightRobotArmy(robots1);
+fightRobotArmy(robots2);
+// union
+var confused = 'hello';
+//or
+var confused2 = 7;
