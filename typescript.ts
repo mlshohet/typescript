@@ -40,7 +40,6 @@ robots2 = { count: 7, type: "Pilots", weapons: "jets"};
 let robots3: RobotArmy;
 robots3 = { count: 8, type: "Grenadiers", weapons: "grenades"};
 
-
 fightRobotArmy(robots1);
 fightRobotArmy(robots2);
 fightRobotArmy(robots3);
