@@ -31,6 +31,7 @@ let fightRobotArmy = (robots: RobotArmy) : void => {
 }
 
 let robots: RobotArmy;
+robots = { count: 12, type: "Guerrilas", magic: "guns"};
 fightRobotArmy(robots);
 
 
