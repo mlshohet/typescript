@@ -37,9 +37,13 @@ robots1 = { count: 12, type: "Guerrilas", weapons: "guns"};
 let robots2: RobotArmy;
 robots2 = { count: 7, type: "Pilots", weapons: "jets"};
 
+let robots3: RobotArmy;
+robots3 = { count: 8, type: "Grenadiers", weapons: "grenades"};
+
+
 fightRobotArmy(robots1);
 fightRobotArmy(robots2);
-
+fightRobotArmy(robots3);
 
 // union
 let confused: string | number = 'hello';
