@@ -27,7 +27,7 @@ robots1 = { count: 12, type: "Guerrilas", weapons: "guns" };
 var robots2;
 robots2 = { count: 7, type: "Pilots", weapons: "jets" };
 var robots3;
-robots3 = { count: 8, type: "Grenadiers", weapons: "grenades" };
+robots3 = { count: 9, type: "Grenadiers", weapons: "grenades" };
 fightRobotArmy(robots1);
 fightRobotArmy(robots2);
 fightRobotArmy(robots3);
