@@ -22,9 +22,14 @@ var fightRobotArmy = function (robots) {
     console.log(robots.count, robots.type, "using", robots.weapons);
     console.log("FIGHT");
 };
-var robots;
-robots = { count: 12, type: "Guerrilas", weapons: "guns" };
-fightRobotArmy(robots);
+
+var robots1;
+robots1 = { count: 12, type: "Guerrilas", weapons: "guns" };
+var robots2;
+robots2 = { count: 7, type: "Pilots", weapons: "Jets" };
+fightRobotArmy(robots1);
+fightRobotArmy(robots2);
+
 // union
 var confused = 'hello';
 //or
