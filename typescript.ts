@@ -40,9 +40,13 @@ robots2 = { count: 7, type: "Pilots", weapons: "jets"};
 let robots3: RobotArmy;
 robots3 = { count: 9, type: "Grenadiers", weapons: "grenades"};
 
+let robots4: RobotArmy;
+robots4 = { count: 10, type: "Tankists", weapons: "tanks"};
+
 fightRobotArmy(robots1);
 fightRobotArmy(robots2);
 fightRobotArmy(robots3);
+fightRobotArmy(robots4);
 
 // union
 let confused: string | number = 'hello';
