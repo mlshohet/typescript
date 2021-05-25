@@ -31,11 +31,14 @@ let fightRobotArmy = (robots: RobotArmy) : void => {
 	console.log("FIGHT");
 }
 
-let robots: RobotArmy;
+let robots1: RobotArmy;
+robots1 = { count: 12, type: "Guerrilas", weapons: "guns"};
 
-robots = { count: 12, type: "Guerrilas", weapons: "guns"};
+let robots2: RobotArmy;
+robots2 = { count: 7, type: "Pilots", weapons: "jets"};
 
-fightRobotArmy(robots);
+fightRobotArmy(robots1);
+fightRobotArmy(robots2);
 
 
 // union
