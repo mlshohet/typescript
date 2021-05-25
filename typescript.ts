@@ -37,8 +37,12 @@ robots1 = { count: 12, type: "Guerrilas", weapons: "guns"};
 let robots2: RobotArmy;
 robots2 = { count: 7, type: "Pilots", weapons: "jets"};
 
+let robots4: RobotArmy;
+robots4 = { count: 9, type: "Pilots", weapons: "jets"};
+
 fightRobotArmy(robots1);
 fightRobotArmy(robots2);
+fightRobotArmy(robots4);
 
 
 // union

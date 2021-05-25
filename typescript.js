@@ -26,8 +26,11 @@ var robots1;
 robots1 = { count: 12, type: "Guerrilas", weapons: "guns" };
 var robots2;
 robots2 = { count: 7, type: "Pilots", weapons: "jets" };
+var robots4;
+robots4 = { count: 9, type: "Pilots", weapons: "jets" };
 fightRobotArmy(robots1);
 fightRobotArmy(robots2);
+fightRobotArmy(robots4);
 // union
 var confused = 'hello';
 //or
