@@ -27,10 +27,12 @@ interface RobotArmy {
 }
 
 let fightRobotArmy = (robots: RobotArmy) : void => {
+	console.log(robots.count, robots.type, "using", robots.magic);
 	console.log("FIGHT");
 }
 
-let robots: RobotArmy;
+
+let robots: RobotArmy = {count: 2, type: "Soldier", magic: "lazers"};
 fightRobotArmy(robots);
 
 
