@@ -6,3 +6,5 @@ One more time to commit
 
 I want to commit, but not rally
 Wait one sec
+
+This is a Black sabbath themed git test
